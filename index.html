@@ -31,31 +31,31 @@
             color: #e5e9f0;
         }
 
-        .card, .login-card, .dashboard-container, .form-card, .ocorrencias-list, .arquivo-view {
+        .cartao, .cartao-login, .container-principal, .cartao-formulario, .lista-ocorrencias, .visualizacao-arquivo {
             border-radius: 28px;
             box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.02);
         }
 
-        body.tema-claro .card,
-        body.tema-claro .login-card,
-        body.tema-claro .dashboard-container,
-        body.tema-claro .form-card,
-        body.tema-claro .ocorrencias-list,
-        body.tema-claro .arquivo-view {
+        body.tema-claro .cartao,
+        body.tema-claro .cartao-login,
+        body.tema-claro .container-principal,
+        body.tema-claro .cartao-formulario,
+        body.tema-claro .lista-ocorrencias,
+        body.tema-claro .visualizacao-arquivo {
             background: #ffffff;
         }
 
-        body.tema-escuro .card,
-        body.tema-escuro .login-card,
-        body.tema-escuro .dashboard-container,
-        body.tema-escuro .form-card,
-        body.tema-escuro .ocorrencias-list,
-        body.tema-escuro .arquivo-view {
+        body.tema-escuro .cartao,
+        body.tema-escuro .cartao-login,
+        body.tema-escuro .container-principal,
+        body.tema-escuro .cartao-formulario,
+        body.tema-escuro .lista-ocorrencias,
+        body.tema-escuro .visualizacao-arquivo {
             background: #252a3a;
             box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.4);
         }
 
-        button, .btn {
+        button, .botao {
             background: #2c2f36;
             color: white;
             border: none;
@@ -67,45 +67,45 @@
             transition: 0.2s;
         }
 
-        button:hover, .btn:hover {
+        button:hover, .botao:hover {
             background: #1e1f24;
             transform: translateY(-1px);
         }
 
         body.tema-escuro button,
-        body.tema-escuro .btn {
+        body.tema-escuro .botao {
             background: #3d4459;
         }
 
         body.tema-escuro button:hover,
-        body.tema-escuro .btn:hover {
+        body.tema-escuro .botao:hover {
             background: #2f3547;
         }
 
-        .btn-outline {
+        .botao-contorno {
             background: transparent;
             border: 1px solid #b9c2cc;
             color: #2c2f36;
         }
 
-        body.tema-escuro .btn-outline {
+        body.tema-escuro .botao-contorno {
             border-color: #5b6e8c;
             color: #cbd5e6;
         }
 
-        .btn-outline:hover {
+        .botao-contorno:hover {
             background: #f2f4f8;
         }
 
-        body.tema-escuro .btn-outline:hover {
+        body.tema-escuro .botao-contorno:hover {
             background: #353c50;
         }
 
-        .btn-danger {
+        .botao-perigo {
             background: #aa2e2e;
         }
 
-        .btn-danger:hover {
+        .botao-perigo:hover {
             background: #8b2323;
         }
 
@@ -153,7 +153,7 @@
             color: #b9c8e8;
         }
 
-        .form-group {
+        .grupo-formulario {
             margin-bottom: 1.4rem;
         }
 
@@ -170,22 +170,22 @@
             color: #eef3ff;
         }
 
-        .login-wrapper {
+        .container-login {
             max-width: 460px;
             width: 100%;
             margin: 0 auto;
         }
 
-        .login-card {
+        .cartao-login {
             padding: 2rem 2rem 2.2rem;
         }
 
-        .logo-area {
+        .area-logo {
             text-align: center;
             margin-bottom: 2rem;
         }
 
-        .logo-area span {
+        .area-logo span {
             font-size: 1.8rem;
             font-weight: 600;
             display: inline-block;
@@ -196,24 +196,24 @@
             margin-bottom: 0.8rem;
         }
 
-        body.tema-claro .logo-area span {
+        body.tema-claro .area-logo span {
             background: #2c2f36;
             color: white;
         }
 
-        body.tema-escuro .logo-area span {
+        body.tema-escuro .area-logo span {
             background: #3d4459;
             color: #e5e9f0;
         }
 
-        .dashboard-container {
+        .container-principal {
             max-width: 1300px;
             width: 100%;
             margin: 0 auto;
             padding: 1.8rem 2rem 2rem;
         }
 
-        .header-dash {
+        .cabecalho {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -222,45 +222,45 @@
             margin-bottom: 2rem;
         }
 
-        body.tema-claro .header-dash {
+        body.tema-claro .cabecalho {
             border-bottom: 2px solid #edf2f7;
         }
 
-        body.tema-escuro .header-dash {
+        body.tema-escuro .cabecalho {
             border-bottom: 2px solid #2f3547;
         }
 
-        .header-controls {
+        .controles-cabecalho {
             display: flex;
             gap: 1rem;
             align-items: center;
             flex-wrap: wrap;
         }
 
-        .tema-toggle {
+        .botao-tema {
             background: none;
             padding: 0.5rem 1rem;
             font-size: 1.2rem;
         }
 
-        body.tema-claro .tema-toggle {
+        body.tema-claro .botao-tema {
             background: #e9ecef;
             color: #2c2f36;
         }
 
-        body.tema-escuro .tema-toggle {
+        body.tema-escuro .botao-tema {
             background: #353c50;
             color: #ffd966;
         }
 
-        .tipo-ocorrencia-buttons {
+        .botoes-tipo {
             display: flex;
             gap: 1rem;
             margin-bottom: 2rem;
             flex-wrap: wrap;
         }
 
-        .tipo-btn {
+        .botao-tipo {
             flex: 1;
             text-align: center;
             border-radius: 40px;
@@ -270,39 +270,39 @@
             transition: 0.2s;
         }
 
-        body.tema-claro .tipo-btn {
+        body.tema-claro .botao-tipo {
             background: #f1f4f9;
             color: #2c2f36;
         }
 
-        body.tema-escuro .tipo-btn {
+        body.tema-escuro .botao-tipo {
             background: #1e2436;
             color: #cbd5e6;
         }
 
-        .tipo-btn.active {
+        .botao-tipo.ativo {
             background: #2c2f36;
             color: white;
         }
 
-        body.tema-escuro .tipo-btn.active {
+        body.tema-escuro .botao-tipo.ativo {
             background: #5b6e8c;
             color: white;
         }
 
-        .form-card {
+        .cartao-formulario {
             padding: 1.8rem;
             margin-bottom: 2rem;
             border-radius: 28px;
         }
 
-        .two-columns {
+        .duas-colunas {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1rem;
         }
 
-        .three-columns {
+        .tres-colunas {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 1rem;
@@ -324,14 +324,14 @@
             color: #b9c8e8;
         }
 
-        .radio-group {
+        .grupo-radio {
             display: flex;
             flex-wrap: wrap;
             gap: 1rem;
             margin-top: 0.5rem;
         }
 
-        .radio-group label {
+        .grupo-radio label {
             display: flex;
             align-items: center;
             gap: 0.5rem;
@@ -339,25 +339,25 @@
             cursor: pointer;
         }
 
-        .radio-group input[type="radio"] {
+        .grupo-radio input[type="radio"] {
             width: auto;
             width: 18px;
             height: 18px;
             cursor: pointer;
         }
 
-        .view-toggle-buttons {
+        .botoes-visualizacao {
             display: flex;
             gap: 1rem;
             margin-bottom: 1.5rem;
         }
 
-        .ocorrencias-list, .arquivo-view {
+        .lista-ocorrencias, .visualizacao-arquivo {
             padding: 1.5rem;
             margin-top: 0.5rem;
         }
 
-        .card-item {
+        .item-ocorrencia {
             padding: 1rem;
             border-radius: 20px;
             margin-bottom: 1rem;
@@ -365,19 +365,19 @@
             position: relative;
         }
 
-        body.tema-claro .card-item {
+        body.tema-claro .item-ocorrencia {
             background: #fafcfd;
         }
 
-        body.tema-escuro .card-item {
+        body.tema-escuro .item-ocorrencia {
             background: #1e2436;
         }
 
-        .card-item.positiva { border-left-color: #2b7e3a; }
-        .card-item.negativa { border-left-color: #bc5a2c; }
-        .card-item.cinza { border-left-color: #6c757d; }
+        .item-ocorrencia.positiva { border-left-color: #2b7e3a; }
+        .item-ocorrencia.negativa { border-left-color: #bc5a2c; }
+        .item-ocorrencia.cinza { border-left-color: #6c757d; }
 
-        .delete-btn {
+        .botao-excluir {
             position: absolute;
             top: 1rem;
             right: 1rem;
@@ -390,12 +390,12 @@
             transition: 0.2s;
         }
 
-        .delete-btn:hover {
+        .botao-excluir:hover {
             background: rgba(170, 46, 46, 0.3);
             transform: scale(1.05);
         }
 
-        .arquivo-grid {
+        .grade-arquivo {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
             gap: 1.5rem;
@@ -425,7 +425,7 @@
             border: 1px solid #2f3547;
         }
 
-        .ficha-header {
+        .cabecalho-ficha {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -435,57 +435,57 @@
             padding-right: 2rem;
         }
 
-        body.tema-claro .ficha-header {
+        body.tema-claro .cabecalho-ficha {
             border-bottom-color: #e9ecef;
         }
 
-        body.tema-escuro .ficha-header {
+        body.tema-escuro .cabecalho-ficha {
             border-bottom-color: #2f3547;
         }
 
-        .ficha-titulo {
+        .titulo-ficha {
             font-size: 1.2rem;
             font-weight: 700;
         }
 
-        .ficha-data {
+        .data-ficha {
             font-size: 0.75rem;
             opacity: 0.7;
         }
 
-        .ficha-corpo {
+        .corpo-ficha {
             margin: 1rem 0;
         }
 
-        .ficha-linha {
+        .linha-ficha {
             display: flex;
             margin-bottom: 0.8rem;
             gap: 0.5rem;
             flex-wrap: wrap;
         }
 
-        .ficha-label {
+        .rotulo-ficha {
             font-weight: 600;
             min-width: 90px;
             opacity: 0.8;
         }
 
-        .ficha-valor {
+        .valor-ficha {
             flex: 1;
         }
 
-        .ficha-descricao {
+        .descricao-ficha {
             margin-top: 1rem;
             padding: 0.8rem;
             border-radius: 16px;
             background: rgba(0, 0, 0, 0.03);
         }
 
-        body.tema-escuro .ficha-descricao {
+        body.tema-escuro .descricao-ficha {
             background: rgba(255, 255, 255, 0.05);
         }
 
-        .badge-tipo {
+        .etiqueta-tipo {
             display: inline-block;
             padding: 0.2rem 0.8rem;
             border-radius: 50px;
@@ -494,28 +494,28 @@
             margin-bottom: 0.5rem;
         }
 
-        body.tema-claro .badge-tipo {
+        body.tema-claro .etiqueta-tipo {
             background: #e9ecef;
         }
 
-        body.tema-escuro .badge-tipo {
+        body.tema-escuro .etiqueta-tipo {
             background: #2f3547;
         }
 
-        .empty-state {
+        .estado-vazio {
             text-align: center;
             padding: 3rem;
         }
 
-        body.tema-claro .empty-state {
+        body.tema-claro .estado-vazio {
             color: #6c7a8e;
         }
 
-        body.tema-escuro .empty-state {
+        body.tema-escuro .estado-vazio {
             color: #8f9bb3;
         }
 
-        .grid-info {
+        .grade-info {
             display: flex;
             flex-wrap: wrap;
             gap: 0.8rem;
@@ -532,7 +532,7 @@
             font-weight: 500;
         }
 
-        .professor-info {
+        .info-professor {
             margin-top: 0.5rem;
             font-size: 0.85rem;
             display: flex;
@@ -544,17 +544,17 @@
         }
 
         @media (max-width: 700px) {
-            .two-columns, .three-columns {
+            .duas-colunas, .tres-colunas {
                 grid-template-columns: 1fr;
             }
-            .dashboard-container {
+            .container-principal {
                 padding: 1rem;
             }
-            .radio-group {
+            .grupo-radio {
                 flex-direction: column;
                 gap: 0.5rem;
             }
-            .arquivo-grid {
+            .grade-arquivo {
                 grid-template-columns: 1fr;
             }
         }
@@ -565,14 +565,13 @@
 <div id="app"></div>
 
 <script>
-    // ========== SISTEMA DE ALUNOS COM CGM PERSISTENTE ==========
     let alunosCadastrados = [];
     
     function carregarAlunosStorage() {
-        const stored = localStorage.getItem("alunos_cadastrados");
-        if(stored) {
+        const armazenado = localStorage.getItem("alunos_cadastrados");
+        if(armazenado) {
             try {
-                alunosCadastrados = JSON.parse(stored);
+                alunosCadastrados = JSON.parse(armazenado);
             } catch(e) { alunosCadastrados = []; }
         }
     }
@@ -609,14 +608,13 @@
         }
     }
     
-    // ========== OCORRÊNCIAS ==========
     let ocorrencias = [];
     
     function carregarOcorrenciasStorage() {
-        const stored = localStorage.getItem("ocorrencias_escolares");
-        if(stored) {
+        const armazenado = localStorage.getItem("ocorrencias_escolares");
+        if(armazenado) {
             try {
-                ocorrencias = JSON.parse(stored);
+                ocorrencias = JSON.parse(armazenado);
             } catch(e) { ocorrencias = []; }
         }
     }
@@ -633,7 +631,6 @@
         }
     }
     
-    // ========== SISTEMA DE LOGIN ==========
     const CODIGO_PROFESSOR = "PROF2025";
     let loggedIn = false;
     let professorLogado = "";
@@ -668,7 +665,6 @@
         renderizarApp();
     }
     
-    // ========== TEMA ==========
     let temaAtual = "claro";
     
     function carregarTemaStorage() {
@@ -699,7 +695,6 @@
         renderizarApp();
     }
     
-    // ========== ESTADO DO FORM E VISUALIZAÇÃO ==========
     let tipoSelecionado = "positiva";
     let subCategoriaSelecionada = "";
     let modoVisualizacao = "lista";
@@ -719,25 +714,24 @@
         "Outros"
     ];
     
-    // ========== RENDER PRINCIPAL ==========
     function renderizarApp() {
         const appDiv = document.getElementById("app");
         if(!appDiv) return;
         
         if(!verificarSessao()) {
             appDiv.innerHTML = `
-                <div class="login-wrapper">
-                    <div class="login-card">
-                        <div class="logo-area">
+                <div class="container-login">
+                    <div class="cartao-login">
+                        <div class="area-logo">
                             <span>📋</span>
                             <h2 style="margin-top: 8px;">Sistema de Ocorrências</h2>
                             <p style="opacity: 0.7;">Área restrita — Professores</p>
                         </div>
-                        <div class="form-group">
+                        <div class="grupo-formulario">
                             <label>Seu nome (Professor)</label>
                             <input type="text" id="nomeProfessor" placeholder="Ex: Carlos Mendes" autocomplete="off">
                         </div>
-                        <div class="form-group">
+                        <div class="grupo-formulario">
                             <label>Código de Acesso</label>
                             <input type="password" id="codigoAcesso" placeholder="Insira o código secreto" autocomplete="off">
                         </div>
@@ -783,9 +777,9 @@
                              (tipoSelecionado === "cinza" ? opcoesCinza : []);
         
         const htmlOpcoes = opcoesAtuais.length > 0 ? `
-            <div class="form-group">
+            <div class="grupo-formulario">
                 <label>${tipoSelecionado === "negativa" ? "⚡ Tipo de Infração" : "📌 Área de Melhoria"}</label>
-                <div class="radio-group" id="radioGroupOpcoes">
+                <div class="grupo-radio" id="grupoRadioOpcoes">
                     ${opcoesAtuais.map(opcao => `
                         <label>
                             <input type="radio" name="subCategoria" value="${opcao}" ${subCategoriaSelecionada === opcao ? 'checked' : ''}>
@@ -797,77 +791,75 @@
         ` : '';
         
         const dashboardHtml = `
-            <div class="dashboard-container">
-                <div class="header-dash">
+            <div class="container-principal">
+                <div class="cabecalho">
                     <div>
                         <h1>📌 Gestão de Ocorrências</h1>
-                        <p style="opacity: 0.7;">Logado como: <strong>${escapeHtml(professorLogado)}</strong></p>
+                        <p style="opacity: 0.7;">Logado como: <strong>${escaparHtml(professorLogado)}</strong></p>
                     </div>
-                    <div class="header-controls">
-                        <button id="temaToggleBtn" class="tema-toggle">${temaAtual === 'claro' ? '🌙' : '☀️'}</button>
-                        <button id="logoutBtn" class="logout-btn">🚪 Sair</button>
+                    <div class="controles-cabecalho">
+                        <button id="temaToggleBtn" class="botao-tema">${temaAtual === 'claro' ? '🌙' : '☀️'}</button>
+                        <button id="logoutBtn" class="botao-contorno">🚪 Sair</button>
                     </div>
                 </div>
                 
-                <div class="tipo-ocorrencia-buttons">
-                    <div data-tipo="positiva" class="tipo-btn ${tipoSelecionado === 'positiva' ? 'active' : ''}">🌟 Positiva (Elogio)</div>
-                    <div data-tipo="negativa" class="tipo-btn ${tipoSelecionado === 'negativa' ? 'active' : ''}">⚠️ Negativa (Advertência)</div>
-                    <div data-tipo="cinza" class="tipo-btn ${tipoSelecionado === 'cinza' ? 'active' : ''}">⚪ Cinza (Observação)</div>
+                <div class="botoes-tipo">
+                    <div data-tipo="positiva" class="botao-tipo ${tipoSelecionado === 'positiva' ? 'ativo' : ''}">🌟 Positiva (Elogio)</div>
+                    <div data-tipo="negativa" class="botao-tipo ${tipoSelecionado === 'negativa' ? 'ativo' : ''}">⚠️ Negativa (Advertência)</div>
+                    <div data-tipo="cinza" class="botao-tipo ${tipoSelecionado === 'cinza' ? 'ativo' : ''}">⚪ Cinza (Observação)</div>
                 </div>
                 
-                <div class="form-card">
+                <div class="cartao-formulario">
                     <h3 style="margin-bottom: 1rem;">📝 Nova ocorrência · ${tipoSelecionado === 'positiva' ? 'Elogio' : tipoSelecionado === 'negativa' ? 'Advertência' : 'Registro Neutro'}</h3>
                     
-                    <!-- Primeira linha: Nome do Aluno, CGM, Série -->
-                    <div class="three-columns">
-                        <div class="form-group">
+                    <div class="tres-colunas">
+                        <div class="grupo-formulario">
                             <label>Nome do Estudante *</label>
                             <input type="text" id="nomeAluno" placeholder="Ex: Ana Beatriz Souza" autocomplete="off">
                             <div id="cgmInfo" class="info-cgm" style="display: none;"></div>
                         </div>
-                        <div class="form-group">
+                        <div class="grupo-formulario">
                             <label>CGM (Automático)</label>
                             <input type="text" id="cgmAluno" placeholder="Será gerado automaticamente" readonly disabled>
                         </div>
-                        <div class="form-group">
+                        <div class="grupo-formulario">
                             <label>Série / Turma *</label>
                             <input type="text" id="serieTurma" placeholder="Ex: 2º EM - A">
                         </div>
                     </div>
                     
-                    <!-- Segunda linha: Disciplina, Data, Professor Responsável -->
-                    <div class="three-columns">
-                        <div class="form-group">
+                    <div class="tres-colunas">
+                        <div class="grupo-formulario">
                             <label>Disciplina *</label>
                             <input type="text" id="disciplina" placeholder="Matemática / História / etc">
                         </div>
-                        <div class="form-group">
+                        <div class="grupo-formulario">
                             <label>Data da ocorrência *</label>
                             <input type="date" id="dataOcorrencia" value="${new Date().toISOString().slice(0,10)}">
                         </div>
-                        <div class="form-group">
+                        <div class="grupo-formulario">
                             <label>👨‍🏫 Professor Responsável *</label>
-                            <input type="text" id="professorNome" placeholder="Nome do professor" value="${escapeHtml(professorLogado)}">
+                            <input type="text" id="professorNome" placeholder="Nome do professor" value="${escaparHtml(professorLogado)}">
                             <small style="opacity: 0.6; font-size: 0.7rem;">Pode alterar se necessário</small>
                         </div>
                     </div>
                     
                     ${htmlOpcoes}
                     
-                    <div class="form-group">
+                    <div class="grupo-formulario">
                         <label>Descrição detalhada *</label>
                         <textarea id="descricao" rows="3" placeholder="${tipoSelecionado === 'negativa' ? 'Descreva a infração cometida, contexto, testemunhas...' : tipoSelecionado === 'cinza' ? 'Descreva os pontos a serem melhorados e sugestões...' : 'Descreva o motivo do elogio, conquistas, comportamento exemplar...'}"></textarea>
                     </div>
                     
                     <div style="display: flex; justify-content: flex-end; gap: 1rem;">
-                        <button id="btnLimparForm" class="btn-outline">Limpar campos</button>
+                        <button id="btnLimparForm" class="botao-contorno">Limpar campos</button>
                         <button id="btnSalvarOcorrencia">📎 Registrar Ocorrência</button>
                     </div>
                 </div>
                 
-                <div class="view-toggle-buttons">
-                    <button id="btnModoLista" class="${modoVisualizacao === 'lista' ? 'btn' : 'btn-outline'}">📋 Lista de Ocorrências</button>
-                    <button id="btnModoArquivo" class="${modoVisualizacao === 'arquivo' ? 'btn' : 'btn-outline'}">📁 Visualizar como Arquivo</button>
+                <div class="botoes-visualizacao">
+                    <button id="btnModoLista" class="${modoVisualizacao === 'lista' ? 'botao' : 'botao-contorno'}">📋 Lista de Ocorrências</button>
+                    <button id="btnModoArquivo" class="${modoVisualizacao === 'arquivo' ? 'botao' : 'botao-contorno'}">📁 Visualizar como Arquivo</button>
                 </div>
                 
                 <div id="visualizacaoContainer">
@@ -878,10 +870,9 @@
         
         appDiv.innerHTML = dashboardHtml;
         
-        // Eventos
         document.getElementById("temaToggleBtn")?.addEventListener("click", alternarTema);
         
-        document.querySelectorAll(".tipo-btn").forEach(btn => {
+        document.querySelectorAll(".botao-tipo").forEach(btn => {
             btn.addEventListener("click", (e) => {
                 const novoTipo = btn.getAttribute("data-tipo");
                 if(novoTipo) {
@@ -930,9 +921,9 @@
             });
         }
         
-        const radioGroup = document.getElementById("radioGroupOpcoes");
-        if(radioGroup) {
-            const radios = radioGroup.querySelectorAll('input[type="radio"]');
+        const grupoRadio = document.getElementById("grupoRadioOpcoes");
+        if(grupoRadio) {
+            const radios = grupoRadio.querySelectorAll('input[type="radio"]');
             radios.forEach(radio => {
                 radio.addEventListener("change", (e) => {
                     subCategoriaSelecionada = e.target.value;
@@ -984,7 +975,6 @@
                 ocorrencias.unshift(novaOcorrencia);
                 salvarOcorrenciasStorage();
                 
-                // Limpar campos
                 document.getElementById("nomeAluno").value = "";
                 document.getElementById("serieTurma").value = "";
                 document.getElementById("disciplina").value = "";
@@ -1011,8 +1001,8 @@
                 const dataInput = document.getElementById("dataOcorrencia");
                 if(dataInput) dataInput.value = new Date().toISOString().slice(0,10);
                 subCategoriaSelecionada = "";
-                if(radioGroup) {
-                    const radios = radioGroup.querySelectorAll('input[type="radio"]');
+                if(grupoRadio) {
+                    const radios = grupoRadio.querySelectorAll('input[type="radio"]');
                     radios.forEach(radio => radio.checked = false);
                 }
             });
@@ -1023,11 +1013,11 @@
     
     function renderizarListaOcorrencias() {
         if(ocorrencias.length === 0) {
-            return `<div class="ocorrencias-list"><div class="empty-state">📭 Nenhuma ocorrência registrada ainda.<br>Utilize o formulário acima para lançar ocorrências.<br><br>💡 Dica: Digite o nome do aluno e o CGM será gerado automaticamente!</div></div>`;
+            return `<div class="lista-ocorrencias"><div class="estado-vazio">📭 Nenhuma ocorrência registrada ainda.<br>Utilize o formulário acima para lançar ocorrências.<br><br>💡 Dica: Digite o nome do aluno e o CGM será gerado automaticamente!</div></div>`;
         }
         
         return `
-            <div class="ocorrencias-list">
+            <div class="lista-ocorrencias">
                 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 1.2rem;">
                     <h3>📋 Lista de Ocorrências</h3>
                     <span style="font-size: 0.75rem; padding: 4px 12px; border-radius: 40px; opacity: 0.7;">${ocorrencias.length} registro(s)</span>
@@ -1050,22 +1040,22 @@
                         const subCatHtml = occ.subCategoria ? `<div class="sub-categoria" style="margin-top: 0.5rem;">📌 ${occ.subCategoria.charAt(0).toUpperCase() + occ.subCategoria.slice(1)}</div>` : '';
                         
                         return `
-                            <div class="card-item ${classeExtra}">
-                                <button class="delete-btn" data-id="${occ.id}" title="Excluir ocorrência">🗑️</button>
-                                <div class="badge-tipo">${tipoTexto}</div>
-                                <div style="font-weight: 700; font-size: 1.05rem; margin-bottom: 0.2rem;">${escapeHtml(occ.nomeAluno)}</div>
-                                <div class="grid-info">
-                                    <span>🆔 CGM: ${escapeHtml(occ.cgm)}</span>
-                                    <span>🏫 Série/Turma: ${escapeHtml(occ.serieTurma)}</span>
-                                    <span>📖 Disciplina: ${escapeHtml(occ.disciplina)}</span>
+                            <div class="item-ocorrencia ${classeExtra}">
+                                <button class="botao-excluir" data-id="${occ.id}" title="Excluir ocorrência">🗑️</button>
+                                <div class="etiqueta-tipo">${tipoTexto}</div>
+                                <div style="font-weight: 700; font-size: 1.05rem; margin-bottom: 0.2rem;">${escaparHtml(occ.nomeAluno)}</div>
+                                <div class="grade-info">
+                                    <span>🆔 CGM: ${escaparHtml(occ.cgm)}</span>
+                                    <span>🏫 Série/Turma: ${escaparHtml(occ.serieTurma)}</span>
+                                    <span>📖 Disciplina: ${escaparHtml(occ.disciplina)}</span>
                                     <span>📅 Data: ${occ.data}</span>
                                 </div>
                                 ${subCatHtml}
-                                <div class="professor-info">
-                                    <span>👨‍🏫 <strong>Professor(a) Responsável:</strong> ${escapeHtml(occ.professor || "Não informado")}</span>
+                                <div class="info-professor">
+                                    <span>👨‍🏫 <strong>Professor(a) Responsável:</strong> ${escaparHtml(occ.professor || "Não informado")}</span>
                                 </div>
                                 <div style="padding: 0.7rem; border-radius: 18px; margin-top: 0.6rem; font-size: 0.85rem; opacity: 0.9;">
-                                    <strong>Descrição:</strong> ${escapeHtml(occ.descricao)}
+                                    <strong>Descrição:</strong> ${escaparHtml(occ.descricao)}
                                 </div>
                             </div>
                         `;
@@ -1077,16 +1067,16 @@
     
     function renderizarArquivoOcorrencias() {
         if(ocorrencias.length === 0) {
-            return `<div class="arquivo-view"><div class="empty-state">📭 Nenhuma ocorrência para exibir no arquivo.<br>Registre ocorrências para visualizá-las como fichas.</div></div>`;
+            return `<div class="visualizacao-arquivo"><div class="estado-vazio">📭 Nenhuma ocorrência para exibir no arquivo.<br>Registre ocorrências para visualizá-las como fichas.</div></div>`;
         }
         
         return `
-            <div class="arquivo-view">
+            <div class="visualizacao-arquivo">
                 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 1.5rem;">
                     <h3>📁 Arquivo de Ocorrências</h3>
                     <span style="font-size: 0.75rem; padding: 4px 12px; border-radius: 40px; opacity: 0.7;">${ocorrencias.length} ficha(s)</span>
                 </div>
-                <div class="arquivo-grid">
+                <div class="grade-arquivo">
                     ${ocorrencias.map(occ => {
                         let tipoTexto = "";
                         let classeExtra = "";
@@ -1103,41 +1093,41 @@
                         
                         return `
                             <div class="ficha-arquivo ${classeExtra}">
-                                <button class="delete-btn" data-id="${occ.id}" style="position: absolute; top: 1rem; right: 1rem;" title="Excluir ocorrência">🗑️</button>
-                                <div class="ficha-header">
-                                    <div class="ficha-titulo">${escapeHtml(occ.nomeAluno)}</div>
-                                    <div class="ficha-data">${occ.data}</div>
+                                <button class="botao-excluir" data-id="${occ.id}" style="position: absolute; top: 1rem; right: 1rem;" title="Excluir ocorrência">🗑️</button>
+                                <div class="cabecalho-ficha">
+                                    <div class="titulo-ficha">${escaparHtml(occ.nomeAluno)}</div>
+                                    <div class="data-ficha">${occ.data}</div>
                                 </div>
-                                <div class="ficha-corpo">
-                                    <div class="ficha-linha">
-                                        <span class="ficha-label">Tipo:</span>
-                                        <span class="ficha-valor">${tipoTexto}</span>
+                                <div class="corpo-ficha">
+                                    <div class="linha-ficha">
+                                        <span class="rotulo-ficha">Tipo:</span>
+                                        <span class="valor-ficha">${tipoTexto}</span>
                                     </div>
-                                    <div class="ficha-linha">
-                                        <span class="ficha-label">CGM:</span>
-                                        <span class="ficha-valor">${escapeHtml(occ.cgm)}</span>
+                                    <div class="linha-ficha">
+                                        <span class="rotulo-ficha">CGM:</span>
+                                        <span class="valor-ficha">${escaparHtml(occ.cgm)}</span>
                                     </div>
-                                    <div class="ficha-linha">
-                                        <span class="ficha-label">Série/Turma:</span>
-                                        <span class="ficha-valor">${escapeHtml(occ.serieTurma)}</span>
+                                    <div class="linha-ficha">
+                                        <span class="rotulo-ficha">Série/Turma:</span>
+                                        <span class="valor-ficha">${escaparHtml(occ.serieTurma)}</span>
                                     </div>
-                                    <div class="ficha-linha">
-                                        <span class="ficha-label">Disciplina:</span>
-                                        <span class="ficha-valor">${escapeHtml(occ.disciplina)}</span>
+                                    <div class="linha-ficha">
+                                        <span class="rotulo-ficha">Disciplina:</span>
+                                        <span class="valor-ficha">${escaparHtml(occ.disciplina)}</span>
                                     </div>
-                                    <div class="ficha-linha">
-                                        <span class="ficha-label">👨‍🏫 Professor:</span>
-                                        <span class="ficha-valor"><strong>${escapeHtml(occ.professor || "Não informado")}</strong></span>
+                                    <div class="linha-ficha">
+                                        <span class="rotulo-ficha">👨‍🏫 Professor:</span>
+                                        <span class="valor-ficha"><strong>${escaparHtml(occ.professor || "Não informado")}</strong></span>
                                     </div>
                                     ${occ.subCategoria ? `
-                                    <div class="ficha-linha">
-                                        <span class="ficha-label">${occ.tipo === "negativa" ? "Infração:" : "Área:"}</span>
-                                        <span class="ficha-valor"><strong>${occ.subCategoria.charAt(0).toUpperCase() + occ.subCategoria.slice(1)}</strong></span>
+                                    <div class="linha-ficha">
+                                        <span class="rotulo-ficha">${occ.tipo === "negativa" ? "Infração:" : "Área:"}</span>
+                                        <span class="valor-ficha"><strong>${occ.subCategoria.charAt(0).toUpperCase() + occ.subCategoria.slice(1)}</strong></span>
                                     </div>
                                     ` : ''}
-                                    <div class="ficha-descricao">
+                                    <div class="descricao-ficha">
                                         <strong>📝 Descrição detalhada:</strong><br>
-                                        ${escapeHtml(occ.descricao)}
+                                        ${escaparHtml(occ.descricao)}
                                     </div>
                                 </div>
                                 <div style="margin-top: 1rem; font-size: 0.65rem; opacity: 0.5; text-align: right;">
@@ -1151,7 +1141,7 @@
         `;
     }
     
-    function escapeHtml(str) {
+    function escaparHtml(str) {
         if(!str) return '';
         return str.replace(/[&<>]/g, function(m) {
             if(m === '&') return '&amp;';
@@ -1161,9 +1151,8 @@
         });
     }
     
-    // Delegar eventos de exclusão
     document.addEventListener('click', function(e) {
-        if(e.target.classList && e.target.classList.contains('delete-btn')) {
+        if(e.target.classList && e.target.classList.contains('botao-excluir')) {
             const id = parseInt(e.target.getAttribute('data-id'));
             if(id) {
                 deletarOcorrencia(id);
